@@ -1,6 +1,14 @@
+h1
+{ 
+text-align: left;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+color:black;
+}
+
 body
 { 
 text-align: center;
 background:pink;
 font-family: helvetica;
+color:white;
 }
