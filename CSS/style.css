@@ -12,3 +12,15 @@ background:pink;
 font-family: helvetica;
 color:white;
 }
+
+input
+{
+	border: 0;
+	padding: 10px;
+	font-size: 15px;
+}
+
+input[type="submit"] {
+	background:gray;
+	color:white;
+}
