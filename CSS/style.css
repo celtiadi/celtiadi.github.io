@@ -12,14 +12,16 @@ text-align:center;
 background:gray;
 font-family:helvetica;
 color:black
-margin:50px 0px; padding:0px;
-	text-align:center;
 }
 
 #bg {
   position: fixed; 
   top: 0; 
   left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 input
@@ -33,14 +35,5 @@ input[type="submit"] {
 	background:gray;
 	color:white;
 }
-
-#content {
-    width:500px;
-    margin:0px auto;
-    text-align:left;
-    padding:15px;
-    border:1px dashed #333;
-    background-color:#eee;
-    }
 
 </style>
