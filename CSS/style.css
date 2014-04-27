@@ -5,12 +5,16 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color:black;
 }
 
+html
+{
+	background: ("chevronstripes.jpg") no-repeat center center fixed;
+background-size: cover;
+background-position: center;
+}
+
 body
 { 
 text-align: center;
-background: ("chevronstripes.jpg");
-background-size: cover;
-background-position: center;
 font-family: helvetica;
 color:black
 }
