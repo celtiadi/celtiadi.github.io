@@ -8,7 +8,9 @@ color:black;
 body
 { 
 text-align: center;
-background:pink;
+background:url(chevronstripes.jpg);
+background-size:cover;
+background-position:center;
 font-family: helvetica;
 color:black
 }
