@@ -1,19 +1,28 @@
 h1
-{ 
-text-align: left;
+{
+img src=""
+text-align: center;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-color:black;
-background:red;
+color:#3E7585;
+background:white;
 }
-<style>
 
-body
-{ 
+body {
+width: 100%;
 text-align:center;
-background:gray;
+background-image: url('../chevronbg.png');
 font-family:helvetica;
-color:black
+color:#3E7585
 }
+
+#content
+{
+	background:#ffffff;
+    width: 900px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
 
 #bg {
   position: fixed; 
@@ -36,12 +45,3 @@ input[type="submit"] {
 	background:gray;
 	color:white;
 }
-
-#content
-{
-  width: 700px ;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-</style>
