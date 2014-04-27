@@ -4,14 +4,12 @@ text-align: left;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color:black;
 }
-
+<style>
 body
 { 
-text-align: center;
-background: url("/chevronstripes.jpg") 
-background-size:cover;
-background-position: center;
-font-family: helvetica;
+text-align:center;
+background:'pink';
+font-family:helvetica;
 color:black
 }
 
@@ -32,3 +30,4 @@ input[type="submit"] {
 	margin-left:auto
 	margin-right:auto;
 }
+</style>
